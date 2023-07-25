@@ -18,7 +18,7 @@ jobs:
     - name: SBT Action using scala-sbt
       uses: acvogel/github-action-sbt@v0.1.2
       with:
-        commands: build
+        commands: assembly
         sbt_project_directory: "danmodel/DanModelFromObj"
     - name: Upload build
       uses: actions/upload-artifact@v3
