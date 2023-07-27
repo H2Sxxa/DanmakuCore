@@ -9,7 +9,6 @@ import java.time.LocalDateTime
 buildscript {
     repositories {
         maven("https://lss233.littleservice.cn/repositories/minecraft")
-        maven("https://files.minecraftforge.net/maven")
         mavenCentral()
         gradlePluginPortal()
     }
