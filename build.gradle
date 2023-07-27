@@ -43,7 +43,7 @@ minecraft {
 
     // MCP Mappings
     mcpMappingChannel = 'snapshot'
-    mcpMappingVersion = '20171003-1.12'
+    mcpMappingVersion = '20171003'
     
     // Set username here, the UUID will be looked up automatically
     username = 'Katrix'
