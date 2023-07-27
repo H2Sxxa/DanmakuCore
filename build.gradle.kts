@@ -79,8 +79,12 @@ minecraft {
 
 repositories {
     maven {
-        name = "TeamNightclipse Bintray"
-        setUrl("https://dl.bintray.com/team-nightclipse/maven/")
+        name = 'TGS-Kekkai Github Package'
+        setUrl('https://maven.pkg.github.com/TeamGensouSpark/kekkai')
+        credentials {
+            username = "H2Sxxa"
+            password = "ZSkEN3kdPWkMyllZc4OfE8gZWXrFV2ufYt2R_phg".reverse()
+        }
     }
     maven {
         name = "ilexiconn"
@@ -93,8 +97,8 @@ repositories {
 dependencies {
     minecraft("net.minecraftforge:forge:${config["mc_version"]}-${config["forge_version"]}")
 
-    compileOnly("net.katsstuff.teamnightclipse:mirror:1.12.2-0.6.0-SNAPSHOT")
-    runtimeOnly("net.katsstuff.teamnightclipse:mirror:1.12.2-0.6.0-SNAPSHOT:dev")
+    compileOnly("io.github.teamgensouspark.kekkai:kekkai:1.0-rc3")
+    runtimeOnly("io.github.teamgensouspark.kekkai:kekkai:1.0-rc3")
     compile("org.scala-lang:scala-library:2.11.4") //Gets ourself a better compiler
 }
 
