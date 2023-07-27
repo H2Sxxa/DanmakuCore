@@ -79,11 +79,11 @@ minecraft {
 
 repositories {
     maven {
-        name = 'TGS-Kekkai Github Package'
-        setUrl('https://maven.pkg.github.com/TeamGensouSpark/kekkai')
+        name = "TGS-Kekkai Github Package"
+        setUrl("https://maven.pkg.github.com/TeamGensouSpark/kekkai")
         credentials {
             username = "H2Sxxa"
-            password = "ZSkEN3kdPWkMyllZc4OfE8gZWXrFV2ufYt2R_phg".reverse()
+            password = "ZSkEN3kdPWkMyllZc4OfE8gZWXrFV2ufYt2R_phg".reversed()
         }
     }
     maven {
