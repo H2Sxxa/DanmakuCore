@@ -250,10 +250,3 @@ idea {
 tasks.named("processIdeaSettings").configure {
     dependsOn("injectTags")
 }
-
-shadowJar.apply {
-    classifier = "shaded"
-    configurations = listOf()
-
-    relocate("shapeless", "net.katsstuff.teamnightclipse.mirror.shade.shapeless")
-}
